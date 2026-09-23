@@ -36,20 +36,20 @@ export default function Home() {
     //   time: "Join Us at 03:00 PM Onwards",
     //   link: "https://maps.app.goo.gl/a9VUbZpPrKCWrjy4A",
     // },
-    {
-      title_ceremony: "The Sacred Promise",
-      image: "/assets/scared.webp",
-      date: "Sunday, November 1st 2026",
-      venue: "The Central Park Hotel",
-      venue_address: (
-        <>
-          Champagne Ballroom of Novotel Hotel,
-          <br /> Balraj Sahni Marg, Juhu Beach, Mumbai - 400049
-        </>
-      ),
-      time: "Join Us at 03:30 PM Onwards",
-      link: "https://maps.app.goo.gl/QLJvPyZLZHhhmfKm7",
-    },
+    // {
+    //   title_ceremony: "The Sacred Promise",
+    //   image: "/assets/scared.webp",
+    //   date: "Sunday, November 1st 2026",
+    //   venue: "The Central Park Hotel",
+    //   venue_address: (
+    //     <>
+    //       Champagne Ballroom of Novotel Hotel,
+    //       <br /> Balraj Sahni Marg, Juhu Beach, Mumbai - 400049
+    //     </>
+    //   ),
+    //   time: "Join Us at 03:30 PM Onwards",
+    //   link: "https://maps.app.goo.gl/QLJvPyZLZHhhmfKm7",
+    // },
     {
       title_ceremony: "Grand Soirée",
       image: "/assets/grand.webp",
@@ -212,7 +212,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-x-16 lg:gap-x-40 gap-y-20">
+            <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-x-16 lg:gap-x-40 gap-y-20">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
